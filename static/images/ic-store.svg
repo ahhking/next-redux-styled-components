@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="49" viewBox="0 0 53 49">
+    <defs>
+        <path id="a" d="M0 0h51v14H0z"/>
+        <path id="c" d="M0 49h52V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1 12)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#2962FF" d="M49.41 3.012C48.98 1.242 47.444 0 45.682 0H5.316C3.555 0 2.02 1.242 1.591 3.012L0 9.6C0 12.03 1.903 14 4.25 14c2.348 0 4.25-1.97 4.25-4.4 0 2.43 1.903 4.4 4.25 4.4C15.098 14 17 12.03 17 9.6c0 2.43 1.903 4.4 4.25 4.4s4.25-1.97 4.25-4.4c0 2.43 1.903 4.4 4.25 4.4C32.098 14 34 12.03 34 9.6c0 2.43 1.903 4.4 4.25 4.4s4.25-1.97 4.25-4.4c0 2.43 1.902 4.4 4.25 4.4C49.097 14 51 12.03 51 9.6l-1.59-6.588z" mask="url(#b)" opacity=".4"/>
+        </g>
+        <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 22c-2.209 0-4-1.829-4-4.086V9h8v8.914C17 20.171 15.209 22 13 22zM21 22c-2.21 0-4-1.829-4-4.086V9h8v8.914C25 20.171 23.209 22 21 22zM30 22c-2.209 0-4-1.829-4-4.086V9h8v8.914C34 20.171 32.209 22 30 22zM38 22c-2.21 0-4-1.829-4-4.086V9h8v8.914C42 20.171 40.209 22 38 22zM46 22c-2.209 0-4-1.829-4-4.086V9h5.818L50 17.914C50 20.171 48.209 22 46 22zM5 22c2.21 0 4-1.829 4-4.086V9H3.182L1 17.914C1 20.171 2.791 22 5 22z"/>
+        <mask id="d" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9h45V1H3zM9 43h18V28H9zM32 48V28h10v20" mask="url(#d)"/>
+        <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 22v26h45V22" mask="url(#d)"/>
+    </g>
+</svg>

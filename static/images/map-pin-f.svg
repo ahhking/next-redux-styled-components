@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="64" viewBox="0 0 50 64">
+    <defs>
+        <path id="a" d="M36 18c0 14-18 32-18 32S0 32 0 18C0 8.058 8.058 0 18 0s18 8.058 18 18z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(7 7)">
+            <use fill="#2962FF" xlink:href="#a"/>
+            <path stroke="#2962FF" stroke-opacity=".2" stroke-width="3" d="M37.5 18c0 2.62-.575 5.433-1.66 8.413-1.591 4.379-4.23 9-7.623 13.713a100.493 100.493 0 0 1-8.355 10.105 59.985 59.985 0 0 1-.801.83L18 52.12l-1.06-1.06a59.985 59.985 0 0 1-.802-.83 100.493 100.493 0 0 1-8.355-10.104C4.39 35.413 1.75 30.791.159 26.412-.925 23.433-1.5 20.62-1.5 18-1.5 7.23 7.23-1.5 18-1.5S37.5 7.23 37.5 18z"/>
+            <use stroke="#2962FF" stroke-opacity=".2" stroke-width="14" xlink:href="#a"/>
+        </g>
+        <path fill="#FFF" stroke="#FFF" stroke-opacity=".2" stroke-width="5" d="M25 14c6.076 0 11 4.903 11 10.952 0 6.05-4.924 10.953-11 10.953s-11-4.903-11-10.953C14 18.903 18.924 14 25 14z"/>
+        <path stroke="#2962FF" stroke-width="2" d="M20 23l5 6 5-6"/>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117" height="92" viewBox="0 0 117 92">
+    <defs>
+        <path id="a" d="M0 0h76.5v21.115H0z"/>
+        <path id="c" d="M0 73.902h78V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(19.5)">
+            <g transform="translate(1.5 18.098)">
+                <mask id="b" fill="#fff">
+                    <use xlink:href="#a"/>
+                </mask>
+                <path fill="#2962FF" d="M74.114 4.542C73.472 1.872 71.168 0 68.524 0H7.975C5.332 0 3.028 1.872 2.386 4.542L0 14.48c0 3.663 2.854 6.636 6.375 6.636s6.375-2.973 6.375-6.636c0 3.663 2.855 6.636 6.374 6.636 3.523 0 6.376-2.973 6.376-6.636 0 3.663 2.855 6.636 6.375 6.636s6.375-2.973 6.375-6.636c0 3.663 2.854 6.636 6.375 6.636S51 18.142 51 14.479c0 3.663 2.855 6.636 6.374 6.636 3.521 0 6.376-2.973 6.376-6.636 0 3.663 2.854 6.636 6.375 6.636 3.52 0 6.375-2.973 6.375-6.636l-2.386-9.937z" mask="url(#b)" opacity=".4"/>
+            </g>
+            <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.5 33.18c-3.313 0-6-2.758-6-6.162V13.574h12v13.444c0 3.404-2.687 6.162-6 6.162zM31.5 33.18c-3.314 0-6-2.758-6-6.162V13.574h12v13.444c0 3.404-2.687 6.162-6 6.162zM45 33.18c-3.313 0-6-2.758-6-6.162V13.574h12v13.444c0 3.404-2.687 6.162-6 6.162zM57 33.18c-3.314 0-6-2.758-6-6.162V13.574h12v13.444c0 3.404-2.687 6.162-6 6.162zM69 33.18c-3.313 0-6-2.758-6-6.162V13.574h8.726L75 27.018c0 3.404-2.687 6.162-6 6.162zM7.5 33.18c3.314 0 6-2.758 6-6.162V13.574H4.774L1.5 27.018c0 3.404 2.687 6.162 6 6.162z"/>
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4.5 13.574H72V1.508H4.5zM13.5 64.852h27V42.23h-27zM48 72.393V42.23h15v30.163" mask="url(#d)"/>
+            <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4.5 33.18v39.213H72V33.18" mask="url(#d)"/>
+        </g>
+        <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M16 67.869L0 85.967h117L101 67.87"/>
+        <path fill="#2962FF" fill-opacity=".3" d="M22.365 78.426L10.5 91.666h96.504L95.13 78.425z"/>
+    </g>
+</svg>

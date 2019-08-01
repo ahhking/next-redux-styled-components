@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="110" viewBox="0 0 128 110">
+    <defs>
+        <linearGradient id="a" x1="100%" x2="2.107%" y1="71.865%" y2="29.056%">
+            <stop offset="0%" stop-color="#006DD4"/>
+            <stop offset="100%" stop-color="#00CBD4"/>
+        </linearGradient>
+        <linearGradient id="b" x1="134.798%" x2="-21.654%" y1="131.479%" y2="-26.078%">
+            <stop offset="0%" stop-color="#006DD4"/>
+            <stop offset="100%" stop-color="#00CBD4"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(2 2)">
+            <path fill="#E9EFFF" d="M90 102H34l7.047-19h41.906z"/>
+            <rect width="124" height="82" fill="#FFF" stroke="url(#a)" stroke-width="4" rx="4"/>
+            <rect width="79" height="6" x="22" y="102" fill="#CCD3E7" rx="3"/>
+        </g>
+        <g transform="translate(39 19)">
+            <circle cx="25.5" cy="25.5" r="25.5" fill="#E9EFFF"/>
+            <path fill="#2962FF" fill-opacity=".4" d="M28.633 14.25h-1.17c-.109.003-7.251.312-7.684 9.392-.813.722-1.452 2.038-1.022 3.953.421 1.87 1.294 2.69 2 3.049.668 1.692 2.628 5.481 6.809 5.481h.964c4.182 0 6.141-3.79 6.808-5.481.707-.359 1.58-1.179 2-3.049.43-1.915-.208-3.231-1.02-3.953-.434-9.08-7.575-9.39-7.65-9.392h-.035"/>
+            <path stroke="#222" stroke-width="1.501" d="M25.794 13h-1.103c-.103.003-6.838.275-7.246 8.287-.767.636-1.37 1.797-.964 3.487.397 1.65 1.22 2.374 1.887 2.69.629 1.493 2.477 4.836 6.42 4.836h.909c3.943 0 5.79-3.343 6.42-4.836.666-.317 1.49-1.04 1.885-2.69.406-1.69-.196-2.85-.962-3.487-.408-8.012-7.143-8.285-7.213-8.287h-.033"/>
+            <path stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.501" d="M22.286 31.75v2.684a18.852 18.852 0 0 0-5.092 1.666A2.083 2.083 0 0 0 16 38M34.646 38a2.08 2.08 0 0 0-1.195-1.9 18.836 18.836 0 0 0-5.091-1.666V31.75M22.01 27.105c.743 1.002 1.908 1.66 3.232 1.66 1.325 0 2.49-.658 3.232-1.66"/>
+        </g>
+        <g stroke="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(86 44)">
+            <path d="M14.5.5L.832.833.499 14.5M.832.832l16.97 16.97"/>
+        </g>
+    </g>
+</svg>

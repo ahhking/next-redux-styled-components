@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="64" viewBox="0 0 76 64">
+    <defs>
+        <path id="a" d="M0 64h76V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M74.007 48H1.993A.987.987 0 0 1 1 47.02V1.98c0-.541.445-.98.993-.98h72.014c.549 0 .993.439.993.98v45.04c0 .541-.444.98-.993.98z"/>
+        <rect width="49" height="33" x="16" y="6" fill="#2962FF" fill-opacity=".3" rx="3"/>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M10 36h41V10H10zM17 62h42M50 62H26l3.02-14h17.96zM10 15.5h41" mask="url(#b)"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M15 32h12v-5H15zM65.358 39.377l-.551.953a1.237 1.237 0 0 1-2.22-.161l-3.301-8.277a1.237 1.237 0 1 1 1.61-1.603l8.267 3.297a1.234 1.234 0 0 1 .165 2.222l-.953.55 1.864 1.864.002.001c.48.483.48 1.263-.002 1.748L68.97 41.24a1.237 1.237 0 0 1-1.749 0l-1.863-1.863z" mask="url(#b)"/>
+    </g>
+</svg>
