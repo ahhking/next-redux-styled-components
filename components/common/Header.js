@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Router from 'next/router';
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -12,6 +13,10 @@ const Wrapper = styled.div`
 export default () => {
   return (
     <Wrapper>
+      <Link href="/about">
+      <a>about</a>
+      </Link>
+
     </Wrapper>
   );
 }

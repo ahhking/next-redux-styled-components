@@ -19,14 +19,17 @@ export function* homeInitFlow(payload) {
     newRegistration: []
   };
   let vimeo = null;
+  const { isServer, cookie } = payload.req;
 
   try {
     console.log('@@@@@homeInitFlow begin');
+    console.log(payload);
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/display/banners?location=MAIN',
-      'get'
+      'get',
+      payload.req
     );
     data.banners = res.data;
     console.log('banners: ', res);
@@ -34,7 +37,8 @@ export function* homeInitFlow(payload) {
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/display/reviewVideos?location=MAIN',
-      'get'
+      'get',
+      payload.req
     );
     // Add vimeo thumbnail_url
 
@@ -45,7 +49,8 @@ export function* homeInitFlow(payload) {
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/space/recommendation',
-      'get'
+      'get',
+      payload.req
     );
     data.recommendation = res.data;
     console.log('/v1/space/recommendation: ', res);
@@ -57,7 +62,8 @@ export function* homeInitFlow(payload) {
       res = yield call(
         fetchApi,
         BASE_URL + '/v1/user/myInfo',
-        'get'
+        'get',
+        payload.req
       );
 
       data.userInfo = res.data;
@@ -77,7 +83,8 @@ export function* homeInitFlow(payload) {
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/building/newRegistration?page=0&size=3',
-      'get'
+      'get',
+      payload.req
     );
     data.newRegistration = res.data.content;
     console.log(res);

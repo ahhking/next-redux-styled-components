@@ -3,6 +3,7 @@ import { ServerStyleSheet } from 'styled-components';
 
 class _Document extends Document {
   static async getInitialProps(ctx) {
+    console.log('init document');
     // console.log('ctx: ', ctx);
 
     const sheet = new ServerStyleSheet();

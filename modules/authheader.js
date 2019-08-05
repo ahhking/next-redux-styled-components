@@ -4,11 +4,18 @@ import base64 from 'base-64';
 import utf8 from 'utf8';
 import validator from 'validator';
 
-export function authHeader() {
-  // let token = getCookie('access_token');
+export function authHeader(isServer, cookie) {
   let token = null;
-  
-  console.log('cookie: ', token);
+  // console.log('@@authheader: ');
+  // console.log('isServer: ', isServer);
+  // console.log('cookie: ', cookie);
+  if (isServer) {
+    token = getCookie('access_token', isServer, cookie);
+  } else {
+    token = getCookie('access_token', null, null);
+  }
+
+  // console.log('cookie: ', token);
 
   if (!token) {
     return {

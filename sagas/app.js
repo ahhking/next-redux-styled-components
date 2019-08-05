@@ -4,7 +4,7 @@ import { BASE_URL, COMMON_CODES } from '../constants';
 
 import { fetchApi } from '../modules';
 
-export function* appInitFlow(payloade) {
+export function* appInitFlow(payload) {
   let res = null;
   let data = new Array(150);
 
@@ -17,84 +17,96 @@ export function* appInitFlow(payloade) {
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.PURPOSE,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.PURPOSE] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SCALE,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SCALE] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.AREA,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.AREA] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SUB_AREA_SEOUL,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SUB_AREA_SEOUL] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SUB_AREA_GYEONGGI,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SUB_AREA_GYEONGGI] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.INDUSTRY_GROUP,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.INDUSTRY_GROUP] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SALES_ITEMS,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SALES_ITEMS] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SPACE_TYPE,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SPACE_TYPE] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.BUSINESS_MODEL,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.BUSINESS_MODEL] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.SPACE_TYPE_DIVISION,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.SPACE_TYPE_DIVISION] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.RESERVATION_STATUS,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.RESERVATION_STATUS] = res.data;
 
     res = yield call(
       fetchApi,
       BASE_URL + '/v1/commonCodes?parentId=' + COMMON_CODES.USER_TYPE,
-      'get'
+      'get',
+      payload.req
     );
     data[COMMON_CODES.USER_TYPE] = res.data;
 

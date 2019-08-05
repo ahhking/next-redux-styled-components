@@ -6,14 +6,14 @@
 import axios from 'axios';
 import { authHeader } from './authheader';
 
-export function fetchApi(url, method, data) {
+export function fetchApi(url, method, req, data) {
   // console.log('fetchApi!! ' + url);
   // console.log('method: ', method);
   // console.log('data: ', data);
   return axios({
     method: method,
     url: url,
-    headers: authHeader(),
+    headers: authHeader(req.isServer, req.cookie),
     data: data ? data : undefined
   });
 }
