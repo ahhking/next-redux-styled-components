@@ -8,7 +8,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Home from '../components/page/Home';
-import HomeM from '../components/page/Home m';
+import HomeM from '../components/page/Home.m';
 
 class Index extends React.Component {
   static async getInitialProps(props) {

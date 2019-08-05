@@ -1,6 +1,6 @@
 import { getDayName } from './getDayName';
 export function getFormatDate(date, format) {
-    // date:  2019-04-17T13:36:24.000+0000
+  // date:  2019-04-17T13:36:24.000+0000
   var s = null;
 
   var d = null;;
@@ -8,7 +8,7 @@ export function getFormatDate(date, format) {
   var curr_month = null;
   var curr_date = null;
 
-  if (new Date(date).toString()== 'Invalid Date') {
+  if (new Date(date).toString() == 'Invalid Date') {
     date = date.split('.')[0];
     date = date.replace(/T/gi, '-');
     date = date.replace(/:/gi, '-')
