@@ -27,6 +27,6 @@
     "redux-saga": "^1.0.5",
     "styled-components": "^4.3.2",
     "utf8": "^3.0.0",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   }
 }
